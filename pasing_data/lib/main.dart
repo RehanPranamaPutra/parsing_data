@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pasing_data/uiview/list_data_user.dart';
+import 'package:pasing_data/uiview/list_user_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const ListDataUser(),debugShowCheckedModeBanner: false,
     );
   }
 }
